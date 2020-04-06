@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeactivity">
+
+    <TextView
+        android:id="@+id/email_tx"
+        android:layout_width="299dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/home_signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="10dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="sign out"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_bt" />
+
+    <EditText
+        android:id="@+id/id_tx"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="id"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/name_tx"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_tx" />
+
+    <EditText
+        android:id="@+id/name_tx"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="title"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/body_tx"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_tx" />
+
+    <EditText
+        android:id="@+id/body_tx"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="body"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/add_bt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_tx" />
+
+    <Button
+        android:id="@+id/add_bt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button2"
+        android:text="add new"
+        app:layout_constraintBottom_toTopOf="@+id/update_bt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/body_tx" />
+
+    <Button
+        android:id="@+id/update_bt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button2"
+        android:text="update by id number "
+        app:layout_constraintBottom_toTopOf="@+id/delete_bt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_bt" />
+
+    <Button
+        android:id="@+id/delete_bt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button2"
+        android:text="delete by id number "
+        app:layout_constraintBottom_toTopOf="@+id/find_bt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_bt" />
+
+    <Button
+        android:id="@+id/find_bt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button2"
+        android:text="show by id number "
+        app:layout_constraintBottom_toTopOf="@+id/list_bt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/delete_bt" />
+
+    <Button
+        android:id="@+id/list_bt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button2"
+        android:text="show all"
+        app:layout_constraintBottom_toTopOf="@+id/home_signout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/find_bt" />
+</androidx.constraintlayout.widget.ConstraintLayout>

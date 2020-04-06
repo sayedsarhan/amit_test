@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1037688626615",
+    "firebase_url": "https://amit-2baf9.firebaseio.com",
+    "project_id": "amit-2baf9",
+    "storage_bucket": "amit-2baf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037688626615:android:e31d1cf226777083b61c32",
+        "android_client_info": {
+          "package_name": "azpkia.azpkia.amit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037688626615-d91kclo9c7b95sflruiu6itbf8ip30dc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "azpkia.azpkia.amit",
+            "certificate_hash": "e65ce1643afbd3961821b4e1a42710e600556741"
+          }
+        },
+        {
+          "client_id": "1037688626615-3ss240lb893ugn9cornp0t5r7uaie95m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-gHQwGO-rcvrmarifEjIbRz9uKTRmc7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037688626615-3ss240lb893ugn9cornp0t5r7uaie95m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

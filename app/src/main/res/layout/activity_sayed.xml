@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFEB3B"
+    tools:context=".sayedActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="279dp"
+        android:paddingBottom="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="279dp"
+            app:srcCompat="@drawable/way90" />
+
+    </LinearLayout>
+
+    <TextView
+        android:paddingTop="30dp"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="sayed ahmed sayed" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:text="01062255778" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="sayedsarhan91@gmail.com"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="90way.com"
+        android:paddingBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/web_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="visit website" />
+
+        <Button
+            android:id="@+id/call_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="call now" />
+
+    </LinearLayout>
+</LinearLayout>
